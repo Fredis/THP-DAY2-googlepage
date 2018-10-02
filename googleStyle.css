@@ -38,6 +38,7 @@ body
 	width: 100px;
 	height: auto;
 	text-align: right;
+	word-spacing: 5px;
 }
 
 .conteneurPrincipal
