@@ -108,3 +108,20 @@ li
 {
 	text-align: left;
 }
+
+button
+{
+	font-weight: bold;
+	color: #757575;
+	background-color: #f2f2f2;
+	height: 35px;
+	border: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.phrase
+{
+	font-size: 0.8em;
+}
