@@ -1,0 +1,32 @@
+.conteneurHeader
+{
+	border: 1px solid Black;
+	height: 50px;
+	width: 300px;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+.conteneurHeaderElement:nth-child(1)
+{
+	border: 1px solid green;
+}
+
+.conteneurHeaderElement:nth-child(2)
+{
+	border: 1px solid red;
+}
+
+.conteneurPrincipal
+{
+	border: 1px solid Black;
+	height: 800px;
+	clear: both;
+}
+
+.conteneurFooter
+{
+	border: 1px solid Black;
+	height: 100px;
+}
