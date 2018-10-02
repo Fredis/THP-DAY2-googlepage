@@ -1,21 +1,43 @@
+body
+{
+	font-family: arial,sans-serif
+}
+
 .conteneurHeader
 {
-	border: 1px solid Black;
 	height: 50px;
-	width: 300px;
+	width: 250px;
 	float: right;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8em;
 }
 
 .conteneurHeaderElement:nth-child(1)
 {
-	border: 1px solid green;
+	width: 105px;
+	height: auto;
+	word-spacing: 10px;
+}
+
+.conteneurHeader a
+{
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+
+.conteneurHeader a:hover
+{
+	color: rgba(0,0,0,0.87);
+	text-decoration: underline;
 }
 
 .conteneurHeaderElement:nth-child(2)
 {
-	border: 1px solid red;
+	width: 100px;
+	height: auto;
+	text-align: right;
 }
 
 .conteneurPrincipal
